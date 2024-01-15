@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Form from './src/components/Form.js';
+//import Form from './src/components/Form.js';
+import FormWithFormik from './src/components/FormWithFormik.js';
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Form />
+     {/* <Form /> */}
+     <FormWithFormik />
     </View>
   );
 }
